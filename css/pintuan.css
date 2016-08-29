@@ -1,0 +1,314 @@
+.banner {
+    height: 475px;
+    background-image: url(../images/pintuan.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave1,
+.wave2 {
+    position: absolute;
+    width: 400%;
+    height: 85px;
+    background: url(../images/wave1.png)repeat-x;
+    bottom: 0px;
+    left: -236px;
+}
+
+.wave1 {
+    animation: 25s linear 0.4s normal none infinite running wave1;
+    -webkit-animation: 25s linear 0.4s normal none infinite running wave1;
+    -moz-animation: 25s linear 0.4s normal none infinite running wave1;
+}
+
+.wave2 {
+    background: url(../images/wave2.png)repeat-x;
+    bottom: 30px;
+    left: -160px;
+    animation: 35s linear 0.2s normal none infinite running wave2;
+    -webkit-animation: 35s linear 0.2s normal none infinite running wave2;
+    -moz-animation: 35s linear 0.2s normal none infinite running wave2;
+}
+
+.pin_row {
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+}
+
+.pin_1 p {
+    text-align: center;
+}
+
+.pin_2 {
+    overflow: hidden;
+    padding: 16px 0px;
+    background: #f8f8f8;
+}
+
+.pin_1 p {
+    line-height: 25px;
+}
+
+.pin_box {
+    overflow: hidden;
+    margin: 8px 0px;
+}
+
+.pin_box img {
+    display: block;
+    margin: 16px auto;
+}
+
+.pin_box a {
+    display: block;
+}
+
+.pin_box a:hover {
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: all 2s;
+    transform: rotateY(180deg);
+}
+
+.pin_box h4,
+.pin_box p {
+    text-align: center;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.pin_title h2 {
+    text-align: center;
+    color: #444;
+}
+
+.pin_3 {
+    padding: 16px 0px;
+}
+
+.pin_tou img {
+    margin-top: 100px;
+    display: block;
+}
+
+.xs_tou img {
+    display: block;
+    margin: 0px auto;
+}
+
+.pin_4 {
+    background: #3292f2;
+    padding: 16px 0px;
+    height: 565px;
+    margin-bottom: 100px;
+}
+
+.pin4_title h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.pin_4_box {
+    width: 700px;
+    height: 515px;
+    background: url(../images/pin_4_bg.png)center bottom no-repeat;
+    margin: 0px auto;
+    position: relative;
+    top: 52px;
+}
+
+.pin_4_swiper {
+    width: 290px;
+    height: 50px;
+    margin: 0px auto;
+}
+
+.swiper-button-next.swiper-button-white {
+    right: -78px;
+    top: 70%;
+}
+
+.swiper-button-prev.swiper-button-white {
+    left: -78px;
+    top: 70%;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    top: -40px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.pin_left,
+.pin_right {
+    overflow: hidden;
+    height: 475px;
+    position: relative;
+}
+
+.pin_left img {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.pin_right h1 {
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+
+.pin_right h4 {
+    color: #fff;
+    margin-top: 16px;
+}
+
+.banner_text {
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+
+.banner_text p,
+.banner_text h3 {
+    color: #fff;
+}
+
+.o2o_right h1 {
+    left: 150px;
+}
+
+.o2o_text {
+    left: 150px;
+}
+
+
+/*小轮播图*/
+
+.slider {
+    position: relative;
+}
+
+.slider ol {
+    position: absolute;
+    left: 50%;
+    margin-left: -63px;
+    top: 18px;
+}
+
+.slider ol li {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: .2;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+    _display: inline;
+}
+
+.slider ol li.current {
+    background: #fff;
+    opacity: 1;
+}
+
+#box {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 290px;
+    height: 435px;
+    margin: 0 auto;
+}
+
+.ad {
+    width: 290px;
+    height: 435px;
+    overflow: hidden;
+    position: relative;
+}
+
+#box img {
+    width: 290px;
+}
+
+.ad ul li {
+    float: left;
+}
+
+.ad ul {
+    position: absolute;
+    top: 0;
+    width: 2940px;
+}
+
+.ad ul li.current {
+    display: block;
+}
+
+#arr span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -20px;
+    background: #000;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'ºÚÌå';
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.3;
+    border: 1px solid #fff;
+}
+
+#arr #right {
+    right: 10px;
+    left: auto;
+}
+
+#box li {
+    float: left;
+}
+
+
+/*手机上的样式*/
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .pin_left,
+    .pin_right {
+        height: 200px;
+    }
+    .pin_4 {
+        height: 540px;
+        margin-bottom: 50px;
+    }
+    .pin_4_box {
+        width: 290px;
+        height: 460px;
+        top: 40px;
+    }
+    #right,
+    #left {
+        display: none;
+    }
+}

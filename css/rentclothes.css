@@ -1,0 +1,223 @@
+/**
+*分享租衣平台
+***/
+
+.rentclothes {
+    background-image: url(../images/rentclothes.jpg);
+}
+
+.rentclothes_1 {
+    overflow: hidden;
+    background: url(../images/rentclothes_1.jpg);
+    bottom center no-repeat;
+    padding: 16px 0px;
+}
+
+.ren_list {
+    width: 150px;
+    height: 150px;
+    border: dashed 1px #ff6688;
+    border-radius: 100px;
+    margin: 16px auto;
+    background: #fbc1d4;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    font-size: 50px;
+}
+
+.ren_list2 {
+    border: dashed 1px #ff6111;
+    background: #fcaf88;
+    font-size: 60px;
+}
+
+.ren_list3 {
+    border: dashed 1px #20bade;
+    background: #aae4e5;
+    font-size: 60px;
+}
+
+.rentc_box {
+    padding: 32px 0px;
+}
+
+.rentc_box h4 {
+    text-align: center;
+    color: #ff6699;
+}
+
+.rentc_box p {
+    text-align: center;
+    margin: 0px;
+}
+
+.rentc_box h4.sanjian {
+    color: #ff6111;
+}
+
+.rentc_box h4.wuxian {
+    color: #20bade;
+}
+
+.rentclothes_2_list {
+    margin-top: 100px;
+}
+
+.rentclothes_3 {
+    margin-top: 50px;
+    height: 750px;
+    background: url(../images/rentclothes_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.rentclothes_3 h2 {
+    margin-top: 60px
+}
+
+.rentclothes_3 p {
+    margin-top: 50px;
+    color: #333;
+}
+
+.dese_icon {
+    width: 150px;
+    height: 150px;
+    background: #aae4e5;
+    border-radius: 100px;
+    margin: 0px auto 16px auto;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    font-size: 60px;
+}
+
+.tese_box {
+    margin: 30px 0px;
+}
+
+.dese_icon2 {
+    background: #fbc1d4;
+}
+
+.dese_icon3 {
+    background: #fcaf88;
+}
+
+.dese_icon4 {
+    background: #31b6dd;
+}
+
+.tese_box h4 {
+    text-align: center;
+    color: #333;
+}
+
+.tese_box p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.rentclothes_5 {
+    background: url(../images/rentclothes_5.jpg);
+    center bottom no-repeat;
+    height: 690px;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+.saoma {
+    text-align: center;
+}
+
+.saoma img {
+    position: relative;
+    top: 120px;
+}
+
+.tiyan h2 {
+    text-align: center;
+    color: #333;
+}
+
+.iphone img,
+.android img {
+    display: block;
+    margin: 0px auto;
+}
+
+.iphone,
+.android {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.iphone h4,
+.android h4 {
+    display: block;
+    color: #333;
+}
+
+.tiyan {
+    overflow: hidden;
+}
+
+.tiyan h2 {
+    margin-top: 170px;
+}
+
+
+/*手机上的样式*/
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .rentclothes_1 {
+        background-size: cover;
+    }
+    .rentc_box {
+        padding: 16px 0px;
+    }
+    .rentclothes_2_list {
+        margin-top: 32px;
+    }
+    .rentclothes_3 {
+        background-position: center;
+        height: auto;
+    }
+    .rentclothes_3 {
+        padding: 50px 0px;
+    }
+    .rentclothes_3 h2 {
+        margin-top: 0px;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    .rentclothes_3 p {
+        margin-top: 0px;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    .tese_box {
+        margin: 16px 0px;
+    }
+    .rentclothes_5 {
+        height: auto;
+        padding: 32px 0px;
+        background-size: cover;
+    }
+    .saoma img {
+        top: 0px;
+    }
+    .tiyan h2 {
+        margin-top: 0px;
+    }
+    .iphone,
+    .android {
+        text-align: center;
+        margin: 16px 0px;
+    }
+}

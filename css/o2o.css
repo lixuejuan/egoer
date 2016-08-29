@@ -1,0 +1,177 @@
+/**
+*o2o
+***/
+
+.o2o {
+    background-image: url(../images/o2o.jpg);
+}
+
+.o2o_img_1 {
+    height: 615px;
+    background-image: url(../images/o2o_img_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.o2o_img_2 img {
+    display: block;
+    margin: 0px auto;
+}
+
+.o2o_2 {
+    overflow: hidden;
+    background: #f8f8f8;
+    padding: 16px 0px;
+}
+
+.o2o_title h2 {
+    text-align: center;
+    color: #444;
+}
+
+.o2o_tab {
+    width: 260px;
+    margin: 16px auto;
+    overflow: hidden;
+}
+
+.o2o_tab ul li {
+    display: block;
+    float: left;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+.o2o_tab ul li.o2o_a {
+    border-radius: 30px 0px 0px 30px;
+    border-top: 1px solid #42a2e5;
+    border-left: 1px solid #42a2e5;
+    border-bottom: 1px solid #42a2e5;
+}
+
+.o2o_tab ul li.o2o_b {
+    border-radius: 0px 30px 30px 0px;
+    border-top: 1px solid #42a2e5;
+    border-right: 1px solid #42a2e5;
+    border-bottom: 1px solid #42a2e5;
+}
+
+.o2o_tab ul li.active {
+    background: #42a2e5;
+    color: #fff;
+}
+
+.o2o_tab_left h4 {
+    text-align: center;
+    color: #444;
+    margin-top: 100px;
+}
+
+.o2o_tab_left p {
+    line-height: 25px;
+    text-indent: 30px;
+}
+
+.o2o_3 {
+    background-image: url(../images/o2o_3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 16px 0px;
+}
+
+.o2o_title2 h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.o2o_title2 p {
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.o2o_3_list {
+    overflow: hidden;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+.o2o_3_list span {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background: #fff;
+    margin: 16px auto;
+    color: #42a2e5;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.o2o_3_list p {
+    color: #fff;
+    text-align: center;
+}
+
+.o2o_4 {
+    background: #f4f4f4;
+}
+
+.pin_box_a,
+.pin_box_b,
+.pin_box_c {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 3px solid #F4F4F4;
+}
+
+.pin_box_a:hover {
+    border-bottom: 3px solid #77d85c;
+    background: #fff;
+}
+
+.pin_box_b:hover {
+    border-bottom: 3px solid #42a2e5;
+    background: #fff;
+}
+
+.pin_box_c:hover {
+    border-bottom: 3px solid #e93034;
+    background: #fff;
+}
+
+
+
+.o2o_3_list span:hover {
+   transform:scale(1.2,1.2); 
+   color: #F69551;
+   cursor: pointer;
+   transition: all 0.6s;
+}
+
+
+/*手机上的样式*/
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+        background-image: url(../images/o2o.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .o2o_img_1 {
+        height: 200px;
+    }
+    .o2o_tab_left h4 {
+        margin-top: 16px;
+    }
+    .o2o_3_list {
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+}

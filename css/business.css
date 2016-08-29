@@ -1,0 +1,302 @@
+/**
+*商业咨询策划
+***/
+
+.banner_business {
+    height: 475px;
+    background-image: url(../images/business.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.designer {
+    height: 334px;
+    background-image: url(../images/designer.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 16px 0px;
+}
+
+.business_2 {
+    overflow: hidden;
+    background: #f8f8f8;
+    padding: 8px 0px;
+    margin-bottom: 16px;
+}
+
+.business_text p {
+    text-align: center;
+    margin: 8px 0px;
+    line-height: 25px;
+}
+
+.business_lc {
+    overflow: hidden;
+}
+
+.business_lc img {
+    display: block;
+    margin: 16px auto;
+}
+
+.business_list {
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #333;
+    border-radius: 6px;
+    margin: 16px 0px;
+    position: relative;
+}
+
+.business_list_top {
+    background: url(../images/jumbotron-background.png)#0078d7 repeat;
+    padding: 20px 16px;
+}
+
+.business_list_top p {
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    line-height: 30px;
+}
+
+.business_mask {
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, .50);
+    padding: 8px;
+}
+
+.business_mask h4,
+.business_mask p {
+    text-align: center;
+    color: #fff;
+}
+
+.business_mask p {
+    margin: 0px;
+}
+
+.business_tab {
+    position: absolute;
+    top: -200px;
+    left: 0px;
+    width: 100%;
+}
+
+.business_tab img {
+    display: block;
+    margin: 0px auto;
+}
+
+.business_3 {
+    padding: 8px 0px;
+    margin-bottom: 16px;
+}
+
+.business_4 {
+    background: #f8f8f8;
+    padding: 16px 0px;
+}
+
+.business_4_list {
+    overflow: hidden;
+}
+
+.business_4_list h4 {
+    text-align: center;
+    color: #444;
+}
+
+.bus_right h2 {
+    position: absolute;
+    left: 0px;
+    top: 210px;
+    color: #fff;
+}
+
+.bus_text {
+    top: 280px;
+}
+
+.wave1,
+.wave2 {
+    position: absolute;
+    width: 400%;
+    height: 85px;
+    background: url(../images/wave1.png)repeat-x;
+    bottom: 0px;
+    left: -236px;
+}
+
+.wave2 {
+    background: url(../images/wave2.png)repeat-x;
+    bottom: 30px;
+    left: -160px;
+    animation: 35s linear 0.2s normal none infinite running wave2;
+    -webkit-animation: 35s linear 0.2s normal none infinite running wave2;
+    -moz-animation: 35s linear 0.2s normal none infinite running wave2;
+}
+
+
+/***
+*策划动画
+****/
+
+.business_mask.active {
+    animation: business_mask .5s forwards;
+    -webkit-animation: business_mask .5s forwards;
+    -moz-animation: business_mask .5s forwards;
+}
+
+@keyframes business_mask {
+    from {
+        bottom: -100px;
+        ;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+
+@-webkit-keyframes business_mask {
+    from {
+        bottom: -100px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+
+@-moz-keyframes business_mask {
+    from {
+        bottom: -100px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+
+.business_tab.active {
+    animation: business_tab 1s ease forwards;
+    -webkit-animation: business_tab 1s ease forwards;
+    -moz-animation: business_tab 1s ease forwards;
+}
+
+@keyframes business_tab {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 140px;
+    }
+}
+
+@-webkit-keyframes business_tab {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 140px;
+    }
+}
+
+@-moz-keyframes business_tab {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 140px;
+    }
+}
+
+
+/***
+**波浪动画
+**/
+
+@keyframes wave1 {
+    from {
+        left: -236px
+    }
+    to {
+        left: -1233px
+    }
+}
+
+@-webkit-keyframes wave1 {
+    from {
+        left: -236px
+    }
+    to {
+        left: -1233px
+    }
+}
+
+@-moz-keyframes wave1 {
+    from {
+        left: -236px
+    }
+    to {
+        left: -1233px
+    }
+}
+
+@keyframes wave2 {
+    from {
+        left: -160px
+    }
+    to {
+        left: -1200px
+    }
+}
+
+@-webkit-keyframes wave2 {
+    from {
+        left: -160px
+    }
+    to {
+        left: -1200px
+    }
+}
+
+@-moz-keyframes wave2 {
+    from {
+        left: -160px
+    }
+    to {
+        left: -1200px
+    }
+}
+
+
+/*手机上的样式*/
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner_business {
+        background-image: url(../images/business.jpg);
+    }
+    .designer {
+        height: auto;
+        background: none;
+        overflow: hidden;
+    }
+    .pin_title {
+        text-align: center;
+    }
+    .wave1,
+    .wave2 {
+        bottom: 0px;
+    }
+    .bus_left img {
+        bottom: -20px;
+    }
+}

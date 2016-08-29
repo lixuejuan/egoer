@@ -1,0 +1,635 @@
+@import 'font.css';
+body {
+    color: #999;
+    font-family: "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+    background: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:active,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
+/***
+*集体的padding
+***/
+
+.paddingtopbot {
+    padding: 8px 0px;
+}
+
+.padding_top8 {
+    padding-top: 8px;
+}
+
+.padding_bot8 {
+    padding-bottom: 8px;
+}
+
+.padding0 {
+    padding: 0px;
+}
+
+.padding_left0 {
+    padding-left: 0px;
+}
+
+.padding_right0 {
+    padding-right: 0px;
+}
+
+.padding_left4 {
+    padding-left: 4px;
+}
+
+.padding_right4 {
+    padding-right: 4px;
+}
+
+.padding_left8 {
+    padding-left: 8px;
+}
+
+.padding_right8 {
+    padding-right: 8px;
+}
+
+.padding16 {
+    padding: 16px;
+}
+
+.padding_bot16 {
+    padding-bottom: 16px;
+}
+
+
+/***
+*集体的margin
+****/
+
+.margin0 {
+    margin: 0px;
+}
+
+.margin_top16 {
+    margin-top: 16px;
+}
+
+.margin_bot16 {
+    margin-bottom: 16px;
+}
+
+.margin_top8 {
+    margin-top: 8px;
+}
+
+.margin_bot8 {
+    margin-bottom: 8px;
+}
+
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/***
+*标题样式
+**/
+
+.groundfloor h2,
+.ground_list h3,
+.product_box h2,
+.pin_box h4 {
+    color: #444;
+}
+
+
+/*轮播图开始*/
+
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.egoer_wrapp {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+header {
+    width: 100%;
+    /*position: fixed;*/
+    z-index: 5;
+}
+
+header.active {
+    background-color: rgba(34, 34, 34, .50);
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    width: 110px;
+    margin: 15px 0px 0px 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    border-radius: 30px;
+    width: 100%;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+nav ul li.active a {
+    background: #fff;
+    color: #333;
+}
+
+.two_menu {
+    position: absolute;
+    width: 110px;
+    top: 50px;
+    /*left: 0px;*/
+    display: none;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.two_menu_top {
+    height: 15px;
+    text-align: center;
+}
+
+.two_menu_top span {
+    color: #fff;
+    font-size: 25px;
+}
+
+.two_nav {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.two_nav a {
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    color: #999;
+    width: 100%;
+    background: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+.two_nav a:hover {
+    border-radius: 0px;
+    background: #f8f8f8;
+    text-decoration: none;
+}
+
+
+/*中间common标题*/
+
+.groundfloor {
+    overflow: hidden;
+    padding: 16px 0px;
+}
+
+.groundfloor h2 {
+    text-align: center;
+    padding: 0px 16px;
+}
+
+.groundfloor p {
+    text-align: center;
+    padding: 0px 16px;
+}
+
+
+/*footer开始*/
+
+footer {
+    overflow: hidden;
+    background: url(../images/footer.jpg);
+    center top;
+    background-size: cover;
+    padding: 30px 0px;
+}
+
+.footer_box {
+    overflow: hidden;
+    margin-top: 32px;
+    width: auto;
+}
+
+.left_icon {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #d2ddf8;
+    border-radius: 100px;
+    color: #d2ddf8;
+    font-size: 20px;
+    margin: 0px auto;
+    display: block;
+}
+
+.right_text {
+    border-left: 1px solid #d2ddf8;
+    padding-left: 16px;
+    overflow: hidden;
+}
+
+.right_text p,
+.footer_box p,
+.footer_box h5,
+.footer_box h4 {
+    color: #d2ddf8;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.right_text p a {
+    display: inline-block;
+    font-size: 22px;
+    color: #d2ddf8;
+    margin: 5px;
+}
+
+.footer_box p,
+.footer_box h4 {
+    margin-top: 8px;
+}
+
+.right_text h3 {
+    margin: 5px 0px;
+    color: #42a2e5;
+}
+
+.fonter_main {
+    margin-bottom: 16px;
+}
+
+
+/*footer_bto开始*/
+
+.footer_bot {
+    padding: 16px;
+    background: #29334c;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/*footer结束*/
+
+
+/*在线客服开始*/
+
+.online_open {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 242px;
+    right: 10px;
+    background: #3d98f3;
+}
+
+.online_open span {
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.online_box {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    width: 0px;
+    height: 0px;
+    background: #fff;
+    box-shadow: 0 5px 9px rgba(4, 0, 0, 0.17);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.online_box_top {
+    height: 50px;
+    background: #3d98f3;
+    position: relative;
+}
+
+.online_box_top h4 {
+    margin: 0px;
+    padding: 0px 16px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.online_box_top span {
+    position: absolute;
+    top: 0px;
+    right: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.online_box_cen {
+    overflow: hidden;
+}
+
+.online_box_cen a {
+    display: block;
+    line-height: 40px;
+    background: #f8f8f8;
+    padding: 0px 16px;
+    margin-bottom: 1px;
+    color: #333;
+    font-size: 12px;
+}
+
+.online_box_cen a span,
+.online_box_bot p span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 10px;
+    color: #333;
+    line-height: 0px;
+}
+
+.online_box_cen a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.online_box_cen a:hover span {
+    color: #3d98f3;
+}
+
+.online_box_bot {
+    overflow: hidden;
+    padding: 0px 16px;
+}
+
+.online_box_bot p span {
+    line-height: 40px;
+}
+
+.online_box_bot p {
+    line-height: 20px;
+    color: #333;
+    margin: 0px;
+}
+
+.online_box_bot h4 {
+    margin-top: 5px;
+    color: #333;
+}
+
+.shares {
+    width: 60px;
+    height: auto;
+    position: fixed;
+    bottom: 115px;
+    right: 10px;
+}
+
+.shares span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #00d420;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.shares img {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+    display: block;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+.shares a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #ff4400;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.back_up {
+    overflow: hidden;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    display: none;
+}
+
+.back_up a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(51, 51, 51, .8);
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+/*在线客服结束*/
+
+
+/*手机侧滑菜单*/
+
+.visible_icon span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.visible_nav {
+    overflow: hidden;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    /*right: -150px;*/
+    background: #333;
+}
+
+.visible_nav ul li {
+    display: block;
+    line-height: 40px;
+    background: #414141;
+}
+
+.visible_nav ul li a {
+    display: block;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.visible_nav ul li.active a {
+    background: #138aff;
+}
+
+.visible_nav ul li .visible_nav_two {
+    overflow: hidden;
+}
+
+.visible_nav ul li .visible_nav_two a {
+    padding-left: 30px;
+    background: #333;
+}
+
+
+/**
+*菜单icon动画
+***/
+
+.visible_icon span.active {
+    animation: visible_icon_anim 1s forwards;
+    -webkit-animation: visible_icon_anim 1s forwards;
+    -moz-animation: visible_icon_anim 1s forwards;
+    -o-animation: visible_icon_anim 1s forwards;
+}
+
+@keyframes visible_icon_anim {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@-moz-keyframes visible_icon_anim {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(90deg);
+    }
+}
+
+@-webkit-keyframes visible_icon_anim {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(90deg);
+    }
+}
+
+@-o-keyframes visible_icon_anim {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(90deg);
+    }
+}
+
+
+/**
+*banner动画组
+***/
+
+.animation_left {
+    left: -500px;
+    opacity: 0;
+}
+
+.animation_right {
+    right: -500px;
+    opacity: 0;
+}
+
+.tuan_left {
+    top: 300px;
+    opacity: 0;
+}
+
+.tuan_right {
+    bottom: 300px;
+    opacity: 0;
+}
+
+.o2o_right {
+    left: 300px;
+    opacity: 0;
+}
+
+.o2o_left {
+    right: 300px;
+    opacity: 0;
+}
+
+.bus_left {
+    top: 400px;
+    opacity: 0;
+}
+
+.bus_right {
+    bottom: 400px;
+    opacity: 0;
+}
+
+
+ 

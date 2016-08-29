@@ -1,0 +1,129 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.about {
+    background-image: url(../images/about.jpg);
+    height: 300px;
+}
+
+.about_left {
+    overflow: hidden;
+    margin: 16px 0px;
+}
+
+.about_left img {
+    display: block;
+    margin: 0px auto;
+}
+
+.about_right h3 {
+    text-align: center;
+    color: #444;
+    margin: 0px 0px 16px 0px;
+}
+
+.about_right p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.address h4 {
+    margin-top: 60px;
+    color: #444;
+}
+
+.address p {
+    color: #444;
+}
+
+.address img {
+    display: block;
+    margin-top: 16px;
+}
+
+.about_bot p {
+    margin: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.about_bot img {
+    display: block;
+    margin: 16px auto;
+}
+
+.map {
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 16px 0px;
+}
+
+.about_top p {
+    margin: 0px;
+}
+
+.contact_icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+    background: #42a2e5;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 100px;
+}
+
+.contact_list h4 {
+    color: #444;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.contact_list P {
+    text-align: center;
+}
+
+.contact_list h3 {
+    text-align: center;
+}
+
+#mymap {
+    width: 1128px;
+    height: 376px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+
+
+/*手机上的样式*/
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+    .about {
+        background-image: url(../images/about.jpg);
+    }
+    .about_right h4 {
+        margin: 0px 0px 16px 0px;
+    }
+    .address h4 {
+        margin-top: 0px;
+    }
+    .about_top {
+        margin-top: 16px;
+    }
+    #mymap {
+        width: 278px;
+        height: 93px;
+    }
+}

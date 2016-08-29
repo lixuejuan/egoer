@@ -1,0 +1,136 @@
+/**
+*商城
+***/
+.banner {
+    height: 475px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.mall {
+    background-image: url(../images/mall.jpg);
+}
+
+.mall_1 img {
+    margin: 16px auto;
+}
+
+.mall_2 {
+    background: #4bcad2;
+    padding: 16px 0px;
+}
+
+.mall_title {
+    overflow: hidden;
+}
+
+.mall_title h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.mall_text p {
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+}
+
+.mall_2 img {
+    display: block;
+    margin: 8px auto;
+}
+
+.mall_4_title h2 {
+    text-align: center;
+    color: #444;
+}
+
+.mall_4_title {
+    overflow: hidden;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.mall_box {
+    background: linear-gradient(#f2fbfc, #fff);
+    background: -webkit-linear-gradient(#f2fbfc, #fff);
+    background: -o-linear-gradient(#f2fbfc, #fff);
+    background: -moz-linear-gradient(#f2fbfc, #fff);
+    overflow: hidden;
+    padding: 30px 0px 50px 0px;
+    margin-top: 16px;
+}
+
+.mall_box span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    line-height: 100px;
+    color: #42a2e5;
+    margin: 16px auto 0px auto;
+}
+
+.mall_box h4 {
+    text-align: center;
+    color: #444;
+}
+
+.mall_box p {
+    text-align: center;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.mall_box_b {
+    background: linear-gradient(#f2fff1, #fff);
+    background: -webkit-linear-gradient(#f2fff1, #fff);
+    background: -o-linear-gradient(#f2fff1, #fff);
+    background: -moz-linear-gradient(#f2fff1, #fff);
+}
+
+.mall_box_c {
+    background: linear-gradient(#fff4f0, #fff);
+    background: -webkit-linear-gradient(#fff4f0, #fff);
+    background: -o-linear-gradient(#fff4f0, #fff);
+    background: -moz-linear-gradient(#fff4f0, #fff);
+}
+
+.mall_box_d {
+    background: linear-gradient(#eef3ff, #fff);
+    background: -webkit-linear-gradient(#eef3ff, #fff);
+    background: -o-linear-gradient(#eef3ff, #fff);
+    background: -moz-linear-gradient(#eef3ff, #fff);
+}
+
+.mall_box_c span,
+.mall_box_d span {
+    font-size: 70px;
+}
+
+.city {
+    height: 130px;
+    background-image: url(../images/city.png)/*tpa=http://www.egoer.cn/images/city.png*/
+    ;
+    background-size: cover;
+    background-position: center;
+    margin-top: 16px;
+}
+
+.mall_4 {
+    margin: 16px 0px;
+}
+
+/*手机上的样式*/
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+        background-image:url(../images/mall.jpg)
+        background-size: cover;
+        background-position: center;
+    }
+}
