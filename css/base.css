@@ -509,6 +509,7 @@ footer {
     height: 100%;
     position: fixed;
     top: 0px;
+    z-index: 9;
     /*right: -150px;*/
     background: #333;
 }

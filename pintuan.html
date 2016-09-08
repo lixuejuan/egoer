@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>拼团系统</title>
-    <!-- <link rel="shortcut icon" type="image/x-icon" href=egoer.icon " media="screen " /> -->
+    <title>拼团版-壹果官网</title>
+    <link rel="shortcut icon" href="egoer.ico " media="screen " />
   <link href="lib/bootstrap/css/bootstrap.css " rel="stylesheet ">
+  <link rel="stylesheet" type="text/css" href="lib/swiper-3.3.1.min.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet " href="css/pintuan.css ">
 
@@ -16,7 +17,7 @@
 <body>
 <div class="wrapper ">
    <!-- 导航栏开始 -->
-  <div class="egoer_wrapper">
+  <div class="egoer_wrapp">
     <header class="affix ">
       <div class="container "> 
            <div class="col-lg-2 col-xs-4 padding0 "> 
@@ -33,7 +34,7 @@
                          <a href="index.html">首页</a>
                     </li> 
                     <li> 
-                         <a href="# ">软件产品</a> 
+                         <a href="pintuan.html ">软件产品</a> 
                          <div class="two_menu"> 
                               <div class="two_menu_top"> 
                                    <span class="icon-shangsanjiao"></span> 
@@ -47,10 +48,10 @@
                          </div>
                     </li>
                     <li> 
-                         <a href="# ">商业策划咨询</a> 
+                         <a href="business.html">商业策划咨询</a> 
                     </li>
                     <li> 
-                         <a href="# ">关于我们</a> 
+                         <a href="about.html ">关于我们</a> 
                          <div class="two_menu"> 
                               <div class="two_menu_top">
                                    <span class="icon-shangsanjiao"></span> 
@@ -201,63 +202,36 @@
       </div>
   <!-- 拼团流程结束 -->
   <!-- 界面欣赏开始 -->
-      <div class="pin_4"> 
-            <div class="container"> 
-                 <div class="row"> 
-                      <div class="col-xs-12 col-lg-12 pin4_title"> 
-                           <h2>界面欣赏</h2> 
-                      </div> 
-                 </div> 
-                <div class="row">
-                     <div class="slider">
-                        <ol id="circle">
-                           <!--  <li></li>
-                           <li class="current"></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li>
-                           <li></li> -->
-                        </ol> 
-                        <div class="col-xs-12 col-lg-12"> 
-                        <div class="pin_4_box">
-                           <div id="box" class="all">
-                              <div class="ad">
-                                    <ul id="imgs">
-                                        <li>
-                                            <img src="images/sc_01.jpg" class="img-responsive">
-                                        </li>
-                                        <li>
-                                            <img src="images/sc_02.jpg" class="img-responsive">
-                                        </li>
-                                        <li>
-                                            <img src="images/sc_03.jpg" class="img-responsive">
-                                        </li>
-                                        <li>
-                                            <img src="images/sc_04.jpg" class="img-responsive">
-                                        </li>
-                                        <li>
-                                            <img src="images/sc_05.jpg" class="img-responsive">
-                                        </li>
-                                        <li>
-                                            <img src="images/sc_06.jpg" class="img-responsive">
-                                        </li>
-                                        <li>
-                                            <img src="images/sc_07.jpg" class="img-responsive">
-                                        </li>
-                                     </ul>
-                              </div>
-                              <div id="arr">
-                                <span id="left">&lt;</span>
-                                <span id="right">&gt;</span>
-                              </div>
-                         </div>
-                      </div>
-                    </div> 
-                  </div>
-                </div> 
-            </div> 
-      </div>
+       <div class="pin_4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-12 pin4_title">
+                            <h2>界面欣赏</h2> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-12">
+                            <div class="pin_4_box">
+                                <div class="pin_4_swiper">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide"><img src="images/sc_01.jpg" class="img-responsive"></div>
+                                            <div class="swiper-slide"><img src="images/sc_02.jpg" class="img-responsive"></div>
+                                            <div class="swiper-slide"><img src="images/sc_03.jpg" class="img-responsive"></div>
+                                            <div class="swiper-slide"><img src="images/sc_04.jpg" class="img-responsive"></div>
+                                            <div class="swiper-slide"><img src="images/sc_05.jpg" class="img-responsive"></div>
+                                            <div class="swiper-slide"><img src="images/sc_06.jpg" class="img-responsive"></div>
+                                            <div class="swiper-slide"><img src="images/sc_07.jpg" class="img-responsive"></div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-prev swiper-button-white hidden-xs"></div>
+                                        <div class="swiper-button-next swiper-button-white hidden-xs"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
   <!-- 界面欣赏结束 -->
   </div>
 <!-- footer开始 -->
@@ -398,7 +372,8 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="lib/bootstrap/js/bootstrap.js "></script>
     <script src="lib/jquery.easing.1.3.js"></script>
-    <script src="js/pintuan.js "></script>
+    <script src="lib/swiper-3.3.1.min.js"></script>
     <script src="js/index.js "></script>
+    <script src="js/pintuan.js "></script>
 </body>
 </html>
