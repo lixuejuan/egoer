@@ -45,9 +45,19 @@
             }, 600, "easeOutCubic");
             $(this).siblings(".product_btn").children("span").removeClass("active");
         });
+        var product_list_H = $(".product_list").innerHeight();
+        var maskH = (product_list_H - 170) / 2;
+        $(".mask_box").css({
+            "margin-top": maskH + "px"
+        });
 
 
         // 经典案例动画
+        var Classic_list_H = $(".Classic_list").height();
+        var maskH = (Classic_list_H - 143) / 2;
+        $(".classic_box").css({
+            "margin-top": maskH + "px"
+        });
         $(".Classic_list").mouseenter(function() {
             $(this).children(".classic_mask").show();
         }).mouseleave(function() {
